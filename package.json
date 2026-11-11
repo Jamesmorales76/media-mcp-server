@@ -1,0 +1,16 @@
+{
+  "name": "media-mcp",
+  "version": "1.0.0",
+  "description": "Full control MCP server for Sonarr, Radarr, Prowlarr, Plex, Tautulli, qBittorrent, TrueNAS SCALE",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:stdio": "TRANSPORT=stdio node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.0",
+    "axios": "^1.6.0",
+    "express": "^4.18.0"
+  }
+}
